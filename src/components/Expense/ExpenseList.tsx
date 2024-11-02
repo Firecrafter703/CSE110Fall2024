@@ -7,13 +7,9 @@ const ExpenseList = () => {
   
   const { expenses } = useContext(AppContext);
 
-<<<<<<< Updated upstream
-  
-=======
     
   
 
->>>>>>> Stashed changes
   return (
     <ul className="list-group">
       {expenses.map((expense: Expense) => (
