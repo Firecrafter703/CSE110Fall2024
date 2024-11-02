@@ -4,24 +4,14 @@ import { AppContext, AppProvider } from "./context/AppContext";
 
 const App = () => {
   // HINT: Wrap the MyBudgetTracker component with AppContextProvider
-<<<<<<< Updated upstream
   return (
     <AppProvider>
       <MyBudgetTracker />
     </AppProvider>
   );
 };
-=======
->>>>>>> Stashed changes
 
   
-  return (
-    <AppProvider> 
 
-    <MyBudgetTracker/> 
 
-    </AppProvider>
-  )
- 
-}
 export default App;
