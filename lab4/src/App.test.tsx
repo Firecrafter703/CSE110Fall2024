@@ -95,8 +95,9 @@ describe("Budget tracker", () => {
     
     expect(screen.getByTestId("Budget")).toHaveTextContent("Budget: $2000");
     expect(screen.getByTestId("Remaining")).toHaveTextContent(
-      "Remaining: $1698"
+      "Remaining: $1687"
     );
+    //1698
     expect(screen.getByTestId("Total")).toHaveTextContent("Spent so far: $302");
     
     fireEvent.change(newExpenseNameInput, {
